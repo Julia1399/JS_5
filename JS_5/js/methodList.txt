@@ -1,0 +1,28 @@
+// некоторые методы использовались просто ради того, чтобы было
+// т.е. они больше нагромождают, чем помогают :)
+
+document.getElementById(); // 103-104 str
+document.getElementsByTagName(); // 100 str
+document.getElementsByClassName(); // 98 str
+document.querySelectorAll(); // 102 str
+document.querySelector(); // 97 str
+array.forEach(element => {
+    
+}); // 14 str
+.style // 52 str
+document.createElement();// 39 str
+document.classList.add(); // 40 str
+document.body.append(); // 41 str
+document.body.prepend(); // можно изменить 41 - результат аналогичный
+document.body.before(); //можно изменить 41 - результат аналогичный
+document.body.after(); // можно изменить 41 - результат аналогичный
+element.remove(); // 75 str
+element.replaceWith(element); // 59 str
+
+//устаревшие не использовались, т.к. имеют такой же функционал
+
+//text
+div.innerHTML = "<h1>Hello</h1>"; // 45 str
+div.textContent = "Hello" // 57 str
+div.insertAdjacentHTML('beforebegin', <h1>Hello</h1>) // 44 str
+

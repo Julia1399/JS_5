@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/bg.png') no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.form{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.question-2{
+    display: none;
+}
+.form input:valid{
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    background-color: rgba(0,0,0,0.2);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.form input:focus{
+    color: #fff;
+}
+.form input:focus:invalid{
+    color: #fff;
+}
+.form input:invalid{
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    background-color: rgba(0,0,0,0.2);
+    border: 3px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form label{
+    display: block;
+    width: 562px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    
+}
+
+.form button{
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 12px;
+    width: 560px;
+    padding: 10px;
+    background: #360C11;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.form button:disabled{
+    cursor: not-allowed;
+}
+.form button:hover{
+    background-color: #7E212C;
+}
+.form button:active{
+    background-color: #672931;
+}
+.popup{
+    position:absolute;
+    width: 300px;
+    background-color: #672931;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    z-index: 1;
+    display: none;
+}
+.close{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 15px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.status{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+    padding-top: 40px;
+}
+.block{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
